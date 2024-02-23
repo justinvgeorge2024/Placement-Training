@@ -1,0 +1,52 @@
+Memory Space:
+RAM handles storage and processing. 
+ROM is made for storage purposes
+
+for the same unit space, ROM will have higher storage capacity than RAM.
+
+Something stored in ROM will not be stored in a specific location, whereas in RAM it is stored in a specific location.
+memory in RAM consits of Stack, Heap and COde section.
+
+
+------
+DECLARATION
+INITIALIZATAION
+INPUT
+OUTPUT
+------
+
+DECLARATION
+-----------
+-------
+Array- static allocation
+An array a[10] is a single consequtive memory block
+In C Program, you can access undeclared memory space.
+------
+types of array declaration in c
+int a1[10];
+int a2[]={1,2,3};
+
+int size =4;
+scanf("%d",&size);  // put in hold.
+int a4[size]; // put in hold but the program will work since there is no assignment operation.
+int a5[size] ={1,2,3}; //will not work since there is an assignment, but size of array is given in a dynamic declaration
+//int a3[];
+
+--------------
+INITIALIZATION
+--------------
+--------------
+3 types of values attained in a array memory.
+1} garbage value
+2} zero
+3} assigned value
+
+ int a[100]; will have zero or garbage value.
+ int a[100] ={1,2}; // a[0] =1, a[1] =2 , rest autoinitialized to 0
+
+-------
+q1 -- ARRAY value updation based
+------
+q2 -- for loop | int value limit | technical question
+------
+q3 -- ARRAY Numerical based question

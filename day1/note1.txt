@@ -1,0 +1,73 @@
+c- structural oriented
+>main function
+>link(preprocessing)
+>subprogram
+>global declaration
+>documentation
+>Executable part
+----
+stages of compilation-4 stages
+preprocessing
+compilation
+Assembly
+Linking
+----
+identifier - user definied names(that are not keywords)
+constants - anything assigned to variables
+keywords - (32 in c)
+---void , int , float, double, break,case, struct, unsigned, typedef, 
+----
+datatypes-2
+Primary ,Secondary
+---
+primary Data types- Derived, User Defined
+eg:int, char, float
+-Derived Data types
+ -array, pointers, double,long long long(%lll)
+-User Defined
+ -structure, union, trees, graphs
+----
+storage
+int - 2 or 4 bytes - (-32767 to +32768)
+float - 4 bytes / 6 decimal places
+  -to display only 2 decimal places (%.2f)
+double -
+char - 1 byte - single character
+----
+ASCII : a-65, z-90, A-97, Z-122
+        0-48, 1-49, 9-57
+----
+variable length should not exceed 32 chars in c and 72 in ANSI/C 
+(prefix should not be a number)-should not start with a number
+----
+c is case sensitive
+----
+#define Max 100 //MACRO or Symbolic constant
+----
+redeclaration of macros is possible
+...
+#include<stdio.h>
+#define max 100
+int  main(){
+  #define max 50
+  int a=max;
+  printf("%d",a); //50
+  return 0;
+} 
+----
+#include<stdio.h>
+#define INC(X) X++
+int main(){
+    int x=4;
+    printf("%d",INC(x++));  //error
+    return 0;
+}
+----
+#include<stdio.h>
+#define f(g1,g2) g1##g2  // ## will concatenate values of g1&g2 -i.e g1##g2 will become var12
+int main(){
+    int var12=100;
+    printf("%d",f(var,12));  //output is 100
+    return 0;
+}
+----

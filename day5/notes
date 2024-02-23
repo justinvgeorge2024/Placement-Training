@@ -1,0 +1,36 @@
+(INT range -2147483648 to +2147483647)
+(Short INT range -32768 to 32767)
+
+ASCII values (0-127)
+---
+0->\0 :NULL
+1-31 -> control keys
+32-127 -> visual keys
+---
+32 -> space //**** 97-65 =32 .. Ascii(A)-Ascii(a) =32
+---
+48-57 : 0-9
+---
+65-90 : A-Z
+97-122 : a-z
+---
+remaining
+
+STRING
+for string type placement exams... they wont give direct string size
+.. instead they give...
+Problem stmt
+i/o format 
+o/p format 
+CONSTRAINT: *** this is important in determining array size. 
+    eg: 0<=STR<=10^5 -> char a[100000];
+Sample input
+Sample output
+------
+Types of string questions
+-> Character Based String
+-> Word Based String
+-> Number Based String
+-------
+q1.c to q6.c
+-------
