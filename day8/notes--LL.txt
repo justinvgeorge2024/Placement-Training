@@ -1,0 +1,18 @@
+LINKED LIST
+
+-linear DS
+-non contiguous memory location
+-3 type -> single , double, circular
+
+parts of single LL: head , node , tail
+
+node parts: Data , address
+
+operations : insertion, deletion, traversing, searching
+
+** sizeof() ->> unary operator -- not a function | returns int value
+
+----
+double LL
+parts of DLL- head , node, tail
+node parts : data , prev, next (prev & next are addresses)

@@ -1,0 +1,12 @@
+strong number - sum of facorials of each digit
+strong number also known as Krishnamurthy's number / Peterson's number
+
+Perfect Number - sum of factors(incl 1 and num) minus that num gives the number itself.
+
+Harshad - if a num is completely divisible by ( the sum of digits of that number).
+
+Automorphic - eg 25. (25)^2 = 625 ... 25 occurs in 625. hence 25 is automorphic.
+
+----
+freq. occuring questions
+string / array / conditional operator / (postfix/prefix operators for ++ --) / linked list
